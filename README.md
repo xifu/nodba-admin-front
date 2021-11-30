@@ -14,11 +14,16 @@ npm run dev
 
 浏览器访问 http://localhost:9527
 
-## 发布
+# 发布
 
-# 构建生产环境
+## 构建生产环境
+```
 npm run build
-# 构建测试环境
+
+```
+
+##  构建测试环境
+```
 npm run build:stage
 
 ```
