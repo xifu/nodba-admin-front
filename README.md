@@ -1,4 +1,4 @@
-## 如果我们没能力修好它，我们就会告诉你它根本没坏。
+## 指南。
 
 # 安装依赖
 npm install
@@ -8,15 +8,7 @@ npm install --registry=https://registry.npm.taobao.org
 
 # 启动服务(本地开发)
 ```
-卡古环境：
-npm run dev:kg
-
-源兴发环境：
-npm run dev:yxf
-
-重庆环境：
-npm run dev:cqam
-```
+npm run dev
 
 ```
 
@@ -24,16 +16,11 @@ npm run dev:cqam
 
 ## 发布
 
+# 构建生产环境
+npm run build
 # 构建测试环境
 npm run build:stage
 
-# 构建生产环境
-卡古环境：
-npm run build:kg
-源兴发环境：
-npm run build:yxf
-重庆环境：
-npm run build:cqam
 ```
 
 # 其它
