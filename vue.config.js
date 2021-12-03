@@ -25,7 +25,7 @@ module.exports = {
     },
     proxy: {
       '/apis': {
-        target: 'http://10.108.164.198:8088', // target host
+        target: 'http://10.78.246.38:8088', // target host
         ws: true, // proxy websockets
         changeOrigin: true, // needed for virtual hosted sites
         pathRewrite: {

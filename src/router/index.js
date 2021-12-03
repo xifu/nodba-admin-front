@@ -96,6 +96,21 @@ export const constantRoutes = [
       },
     ]
   },
+  {
+    path: '/workflow',
+    component: Layout,
+    children: [
+      {
+        path: 'index',
+        name: 'process',
+        component: (resolve) => require(['@/views/workflow/index'],resolve),
+        meta: { 
+          title: '流程配置', 
+          icon: 'user',
+        }
+      },
+    ]
+  },
 
 ]
 
